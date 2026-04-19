@@ -1,0 +1,5 @@
+const statusTypeMap: Record<AgentState, 'success' | 'warning' | 'info'> = {
+  ['在线']: 'success',
+  ['忙碌']: 'warning',
+  ['离线']: 'info',
+}

@@ -1,0 +1,111 @@
+@use './variables.scss' as *;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: 'Microsoft YaHei', 'PingFang SC', 'Segoe UI', sans-serif;
+  color: $text-primary;
+  background:
+    radial-gradient(circle at 12% 20%, rgba(64, 158, 255, 0.18), transparent 35%),
+    radial-gradient(circle at 85% 12%, rgba(0, 240, 255, 0.18), transparent 32%),
+    $bg-page;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tech-card {
+  background: linear-gradient(160deg, rgba(11, 22, 48, 0.95), rgba(7, 16, 36, 0.95));
+  border: 1px solid rgba(64, 158, 255, 0.28);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.08), inset 0 0 18px rgba(64, 158, 255, 0.08);
+  border-radius: $card-radius;
+}
+
+.page-container {
+  padding: 16px;
+  min-height: calc(100vh - #{$header-height});
+}
+
+.page-title {
+  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: 700;
+  color: $text-primary;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  color: $accent;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.section-sub {
+  margin: 10px 0 8px;
+  color: $text-muted;
+  font-size: 13px;
+}
+
+.muted-text {
+  color: $text-regular;
+}
+
+.panel-grid-2 {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.panel-grid-3 {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.panel-grid-4 {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.tech-card .el-table {
+  --el-table-bg-color: transparent;
+  --el-table-tr-bg-color: transparent;
+  --el-table-border-color: rgba(64, 158, 255, 0.2);
+  --el-table-text-color: #b7c7e8;
+  --el-table-header-text-color: #eaf3ff;
+}
+
+@media (max-width: 1200px) {
+  .panel-grid-4,
+  .panel-grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .panel-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 12px;
+  }
+
+  .panel-grid-4,
+  .panel-grid-3 {
+    grid-template-columns: 1fr;
+  }
+}

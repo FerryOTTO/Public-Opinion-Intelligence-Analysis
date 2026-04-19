@@ -1,0 +1,2936 @@
+{
+  "stats": [
+    {
+      "label": "今日信息量",
+      "value": 153842,
+      "unit": "条"
+    },
+    {
+      "label": "舆情热度指数",
+      "value": 94
+    },
+    {
+      "label": "负面情感占比",
+      "value": 21.4,
+      "unit": "%"
+    },
+    {
+      "label": "活跃事件数",
+      "value": 15
+    },
+    {
+      "label": "预警数量",
+      "value": 3,
+      "unit": "条"
+    },
+    {
+      "label": "传播裂变系数",
+      "value": 4.2
+    },
+    {
+      "label": "谣言拦截",
+      "value": 156,
+      "unit": "条"
+    },
+    {
+      "label": "KOL参与度",
+      "value": 88
+    }
+  ],
+  "sentimentData": [
+    {
+      "name": "正面",
+      "value": 45
+    },
+    {
+      "name": "中性",
+      "value": 32
+    },
+    {
+      "name": "负面",
+      "value": 23
+    }
+  ],
+  "platformData": [
+    {
+      "name": "微博",
+      "value": 3200
+    },
+    {
+      "name": "抖音",
+      "value": 2680
+    },
+    {
+      "name": "新闻",
+      "value": 2140
+    },
+    {
+      "name": "知乎",
+      "value": 1620
+    },
+    {
+      "name": "B站",
+      "value": 1180
+    },
+    {
+      "name": "小红书",
+      "value": 980
+    }
+  ],
+  "chinaHeatData": [],
+  "worldHeatData": [
+    {
+      "name": "China",
+      "value": 92
+    },
+    {
+      "name": "United States",
+      "value": 85
+    },
+    {
+      "name": "Japan",
+      "value": 74
+    },
+    {
+      "name": "Russia",
+      "value": 62
+    }
+  ],
+  "countryHeatMapData": {
+    "china": []
+  },
+  "trendData": {
+    "xAxis": [
+      "00时",
+      "01时",
+      "02时",
+      "03时",
+      "04时",
+      "05时",
+      "06时",
+      "07时",
+      "08时",
+      "09时",
+      "10时",
+      "11时",
+      "12时",
+      "13时",
+      "14时",
+      "15时",
+      "16时",
+      "17时",
+      "18时",
+      "19时",
+      "20时",
+      "21时",
+      "22时",
+      "23时"
+    ],
+    "series": [
+      {
+        "name": "总体声量",
+        "data": [
+          { "value": 380, "snapshotId": "t_0" },
+          { "value": 340, "snapshotId": "t_1" },
+          { "value": 310, "snapshotId": "t_2" },
+          { "value": 295, "snapshotId": "t_3" },
+          { "value": 280, "snapshotId": "t_4" },
+          { "value": 360, "snapshotId": "t_5" },
+          { "value": 520, "snapshotId": "t_6" },
+          { "value": 760, "snapshotId": "t_7" },
+          { "value": 980, "snapshotId": "t_8" },
+          { "value": 1150, "snapshotId": "t_9" },
+          { "value": 1320, "snapshotId": "t_10" },
+          { "value": 1480, "snapshotId": "t_11" },
+          { "value": 1390, "snapshotId": "t_12" },
+          { "value": 1260, "snapshotId": "t_13" },
+          { "value": 1180, "snapshotId": "t_14" },
+          { "value": 1240, "snapshotId": "t_15" },
+          { "value": 1510, "snapshotId": "t_16" },
+          { "value": 1820, "snapshotId": "t_17" },
+          { "value": 2260, "snapshotId": "t_18" },
+          { "value": 2860, "snapshotId": "t_19" },
+          { "value": 2140, "snapshotId": "t_20" },
+          { "value": 1680, "snapshotId": "t_21" },
+          { "value": 1210, "snapshotId": "t_22" },
+          { "value": 860, "snapshotId": "t_23" }
+        ]
+      },
+      {
+        "name": "负面声量",
+        "data": [
+          { "value": 120, "snapshotId": "t_0" },
+          { "value": 110, "snapshotId": "t_1" },
+          { "value": 105, "snapshotId": "t_2" },
+          { "value": 98, "snapshotId": "t_3" },
+          { "value": 95, "snapshotId": "t_4" },
+          { "value": 118, "snapshotId": "t_5" },
+          { "value": 165, "snapshotId": "t_6" },
+          { "value": 248, "snapshotId": "t_7" },
+          { "value": 310, "snapshotId": "t_8" },
+          { "value": 352, "snapshotId": "t_9" },
+          { "value": 388, "snapshotId": "t_10" },
+          { "value": 435, "snapshotId": "t_11" },
+          { "value": 420, "snapshotId": "t_12" },
+          { "value": 376, "snapshotId": "t_13" },
+          { "value": 348, "snapshotId": "t_14" },
+          { "value": 360, "snapshotId": "t_15" },
+          { "value": 422, "snapshotId": "t_16" },
+          { "value": 515, "snapshotId": "t_17" },
+          { "value": 648, "snapshotId": "t_18" },
+          { "value": 860, "snapshotId": "t_19" },
+          { "value": 620, "snapshotId": "t_20" },
+          { "value": 470, "snapshotId": "t_21" },
+          { "value": 338, "snapshotId": "t_22" },
+          { "value": 245, "snapshotId": "t_23" }
+        ]
+      },
+      {
+        "name": "互动增量",
+        "data": [
+          { "value": 80, "snapshotId": "t_0" },
+          { "value": 72, "snapshotId": "t_1" },
+          { "value": 68, "snapshotId": "t_2" },
+          { "value": 64, "snapshotId": "t_3" },
+          { "value": 61, "snapshotId": "t_4" },
+          { "value": 85, "snapshotId": "t_5" },
+          { "value": 140, "snapshotId": "t_6" },
+          { "value": 190, "snapshotId": "t_7" },
+          { "value": 235, "snapshotId": "t_8" },
+          { "value": 280, "snapshotId": "t_9" },
+          { "value": 326, "snapshotId": "t_10" },
+          { "value": 365, "snapshotId": "t_11" },
+          { "value": 350, "snapshotId": "t_12" },
+          { "value": 320, "snapshotId": "t_13" },
+          { "value": 295, "snapshotId": "t_14" },
+          { "value": 310, "snapshotId": "t_15" },
+          { "value": 372, "snapshotId": "t_16" },
+          { "value": 440, "snapshotId": "t_17" },
+          { "value": 520, "snapshotId": "t_18" },
+          { "value": 690, "snapshotId": "t_19" },
+          { "value": 510, "snapshotId": "t_20" },
+          { "value": 402, "snapshotId": "t_21" },
+          { "value": 298, "snapshotId": "t_22" },
+          { "value": 210, "snapshotId": "t_23" }
+        ]
+      }
+    ]
+  },
+  "hourlyHotSearchSnapshots": {
+    "t_0": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_1": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_2": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_3": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_4": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_5": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_6": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_7": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_8": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_9": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_10": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_11": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_12": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_13": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_14": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_15": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_16": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_17": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_18": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_19": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_20": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_21": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_22": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ],
+    "t_23": [
+      {
+        "rank": 1,
+        "title": "美伊冲突",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "新闻"
+        ],
+        "domain": "国际政治",
+        "keySummary": "热度: 27000, 占比: 18%"
+      },
+      {
+        "rank": 2,
+        "title": "张雪机车世界超级摩托车锦标赛夺冠",
+        "emotion_type": "正面",
+        "platforms": [
+          "抖音",
+          "B站"
+        ],
+        "domain": "体育赛事",
+        "keySummary": "热度: 21750, 占比: 14.5%"
+      },
+      {
+        "rank": 3,
+        "title": "澳洲优思益被曝假进口",
+        "emotion_type": "负面",
+        "platforms": [
+          "小红书",
+          "新闻"
+        ],
+        "domain": "消费维权",
+        "keySummary": "热度: 18750, 占比: 12.5%"
+      },
+      {
+        "rank": 4,
+        "title": "电视剧《白日提灯》热播",
+        "emotion_type": "正面",
+        "platforms": [
+          "腾讯视频",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 15750, 占比: 10.5%"
+      },
+      {
+        "rank": 5,
+        "title": "李荣浩指责单依纯侵权唱《李白》",
+        "emotion_type": "中性",
+        "platforms": [
+          "网易云音乐",
+          "知乎"
+        ],
+        "domain": "知识产权",
+        "keySummary": "热度: 13500, 占比: 9%"
+      },
+      {
+        "rank": 6,
+        "title": "电视剧《你好1983》播出",
+        "emotion_type": "正面",
+        "platforms": [
+          "爱奇艺",
+          "微博"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 11250, 占比: 7.5%"
+      },
+      {
+        "rank": 7,
+        "title": "美国载人绕月任务火箭发布",
+        "emotion_type": "正面",
+        "platforms": [
+          "SpaceX",
+          "新闻"
+        ],
+        "domain": "航天科技",
+        "keySummary": "热度: 9000, 占比: 6%"
+      },
+      {
+        "rank": 8,
+        "title": "张雪峰因心源性猝死去世",
+        "emotion_type": "负面",
+        "platforms": [
+          "微博",
+          "抖音"
+        ],
+        "domain": "社会新闻",
+        "keySummary": "热度: 7500, 占比: 5%"
+      },
+      {
+        "rank": 9,
+        "title": "小米2025年财报",
+        "emotion_type": "正面",
+        "platforms": [
+          "雪球",
+          "新闻"
+        ],
+        "domain": "财经金融",
+        "keySummary": "热度: 6000, 占比: 4%"
+      },
+      {
+        "rank": 10,
+        "title": "周杰伦新专辑《太阳之子》MV上线",
+        "emotion_type": "正面",
+        "platforms": [
+          "咪咕音乐",
+          "B站"
+        ],
+        "domain": "影视娱乐",
+        "keySummary": "热度: 4500, 占比: 3.0%"
+      }
+    ]
+  },
+  "topicMultiTrendData": {
+    "xAxis": [
+      "00时", "01时", "02时", "03时", "04时", "05时", "06时", "07时", "08时", "09时", "10时", "11时", "12时", "13时", "14时", "15时", "16时", "17时", "18时", "19时", "20时", "21时", "22时", "23时"
+    ],
+    "series": [
+      {
+        "name": "美伊冲突",
+        "data": [21000, 22500, 24000, 26000, 27500, 27000, 26500, 27200, 28000, 29500, 31000, 32500, 31800, 31000, 30500, 30000, 29500, 28800, 28000, 27000, 26500, 25800, 25000, 24500]
+      },
+      {
+        "name": "超级摩托车锦标赛",
+        "data": [12000, 13500, 15000, 18000, 21750, 25000, 28000, 26500, 24000, 22000, 21000, 20500, 21750, 23000, 24500, 26000, 27500, 25000, 23000, 21750, 20000, 18500, 17000, 16000]
+      },
+      {
+        "name": "澳洲优思益假进口",
+        "data": [5000, 6500, 8000, 11000, 14500, 18750, 22000, 25000, 28500, 26000, 24000, 22000, 20000, 18750, 18000, 19500, 21000, 23500, 21000, 18750, 17500, 16000, 14500, 13000]
+      },
+      {
+        "name": "电视剧白日提灯",
+        "data": [8000, 8500, 9200, 10500, 12000, 13500, 14200, 15000, 15750, 16500, 17800, 19200, 20500, 21800, 23500, 22000, 20500, 19000, 17500, 15750, 14200, 13000, 12500, 11800]
+      },
+      {
+        "name": "李荣浩指责侵权",
+        "data": [3000, 4200, 5500, 7800, 9500, 11200, 13500, 15800, 14500, 13500, 12800, 13500, 14800, 16500, 18200, 20500, 22800, 21000, 18500, 13500, 11200, 9800, 8500, 7200]
+      }
+    ]
+  }
+}

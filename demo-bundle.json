@@ -1,0 +1,27 @@
+{
+  "bundleName": "public-opinion-demo-bundle",
+  "frontendPath": "./",
+  "database": {
+    "engine": "mysql8",
+    "schemaFiles": [
+      "../../../../mysql_schema.sql",
+      "./demo-login-schema.sql"
+    ],
+    "databaseName": "public_opinion_platform"
+  },
+  "dify": {
+    "baseUrl": "http://localhost:18080",
+    "apps": [
+      "public-opinion-master-agent",
+      "agent-master-orchestrator",
+      "agent-analysis",
+      "agent-security"
+    ],
+    "runtimeMode": "demo-linked"
+  },
+  "notes": [
+    "登录模块采用数据库回执风格的前端模拟认证。",
+    "演示时建议使用 admin / 123456 或 operator / 123456。",
+    "如需打包答辩材料，可将本文件与 .env.demo 一并交付。"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dashboard": {
+    "overview": {
+      "title": "舆情数据看板 (本地模型输出测试)",
+      "totalEvents": 128,
+      "alertCount": 5,
+      "sentimentIndex": 72.5
+    }
+  },
+  "data-collection": {
+    "overview": {
+      "sources": [
+        { "name": "微博", "value": 450, "status": "active" },
+        { "name": "贴吧", "value": 320, "status": "active" }
+      ],
+      "trend": [10, 20, 15, 30, 45, 40]
+    }
+  }
+}
