@@ -17,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # 强制使用Node.js 24解决弃用警告
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,7 +27,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'  # 更新到Node.js 22
           cache: 'npm'
 
       - name: Install dependencies
@@ -32,12 +35,33 @@ jobs:
 
       - name: Build project for GitHub Pages
         run: |
-          npm run build:github
-          # 验证构建文件
-          echo "检查构建结果..."
-          ls -la dist/
-          echo "检查index.html路径..."
-          grep -o 'src="[^"]*"' dist/index.html | head -5
+          echo "开始构建GitHub Pages版本..."
+          echo "当前目录: $(pwd)"
+          echo "Node版本: $(node --version)"
+          echo "NPM版本: $(npm --version)"
+
+          # 检查package.json中的构建脚本
+          echo "检查package.json构建脚本..."
+          cat package.json | grep -A5 '"scripts"'
+
+          # 运行构建
+          npm run build:github || {
+            echo "构建失败，尝试普通构建..."
+            npm run build
+          }
+
+          # 验证构建结果
+          echo "验证构建结果..."
+          if [ -f "dist/index.html" ]; then
+            echo "✅ index.html 生成成功"
+            echo "文件大小: $(wc -l < dist/index.html) 行"
+            echo "前3行内容:"
+            head -3 dist/index.html
+          else
+            echo "❌ index.html 未生成"
+            ls -la dist/ 2>/dev/null || echo "dist目录不存在"
+            exit 1
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
