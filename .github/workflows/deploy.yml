@@ -30,10 +30,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build project
-        env:
-          VITE_BASE_URL: /${{ github.event.repository.name }}/
-        run: npm run build
+      - name: Build project for GitHub Pages
+        run: |
+          npm run build:github
+          # 验证构建文件
+          echo "检查构建结果..."
+          ls -la dist/
+          echo "检查index.html路径..."
+          grep -o 'src="[^"]*"' dist/index.html | head -5
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
