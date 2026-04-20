@@ -1,0 +1,92 @@
+name: Deploy Vue App to GitHub Pages
+
+on:
+  # 在推送到 main 分支时触发
+  push:
+    branches: [ "main" ]
+  
+  # 允许手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Clean cache and install dependencies
+        run: |
+          echo "清理缓存..."
+          rm -rf node_modules dist
+          npm cache clean --force
+          echo "安装依赖..."
+          npm ci
+
+      - name: Build for GitHub Pages
+        run: |
+          echo "构建 GitHub Pages 版本..."
+          echo "当前目录: $(pwd)"
+          echo "Node版本: $(node --version)"
+          echo "NPM版本: $(npm --version)"
+          
+          # 设置 GitHub Pages 环境变量
+          export VITE_BASE_URL=/Public-Opinion-Intelligence-Analysis/
+          
+          # 构建项目
+          npm run build:github || npm run build
+          
+          # 验证构建结果
+          echo "验证构建结果..."
+          if [ -f "dist/index.html" ]; then
+            echo "✅ index.html 生成成功"
+            if grep -q "assets/main-" dist/index.html; then
+              echo "✅ 包含正确的编译后JS引用"
+              echo "构建成功！"
+            else
+              echo "❌ 错误：不包含编译后的JS引用"
+              echo "HTML内容预览："
+              head -20 dist/index.html
+              exit 1
+            fi
+          else
+            echo "❌ 错误：index.html 未生成"
+            ls -la dist/ 2>/dev/null || echo "dist目录不存在"
+            exit 1
+          fi
+
+      - name: Create .nojekyll file
+        run: |
+          echo "创建 .nojekyll 文件..."
+          touch ./dist/.nojekyll
+          echo "✅ .nojekyll 文件已创建"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
