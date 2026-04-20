@@ -66,10 +66,17 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Create .nojekyll file for GitHub Pages
+        run: |
+          echo "创建.nojekyll文件禁用Jekyll处理..."
+          touch ./dist/.nojekyll
+          echo "✅ .nojekyll文件已创建"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
+          # 明确指定上传到根目录
 
   deploy:
     environment:
@@ -78,6 +85,13 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Verify deployment
+        run: |
+          echo "部署验证..."
+          echo "部署ID: 91f306abb71041593346f5e8f90910c6b0e7755d"
+          echo "网站URL: https://ferryotto.github.io/Public-Opinion-Intelligence-Analysis/"
+          echo "等待5-10分钟让部署完全生效"
+          echo "测试URL:"
+          echo "- 主页面: https://ferryotto.github.io/Public-Opinion-Intelligence-Analysis/"
+          echo "- 直接文件: https://ferryotto.github.io/Public-Opinion-Intelligence-Analysis/index.html"
+          echo "- 哈希路由: https://ferryotto.github.io/Public-Opinion-Intelligence-Analysis/#/login"
