@@ -61,8 +61,15 @@ jobs:
           if [ -f "dist/index.html" ]; then
             echo "✅ index.html 生成成功"
             echo "文件大小: $(wc -l < dist/index.html) 行"
-            echo "前3行内容:"
-            head -3 dist/index.html
+            echo "检查是否包含正确的JS引用..."
+            if grep -q "assets/main-" dist/index.html; then
+              echo "✅ 包含正确的编译后JS引用"
+            else
+              echo "❌ 不包含正确的JS引用，可能是开发模式配置"
+              echo "HTML内容前20行:"
+              head -20 dist/index.html
+              exit 1
+            fi
           else
             echo "❌ index.html 未生成"
             ls -la dist/ 2>/dev/null || echo "dist目录不存在"

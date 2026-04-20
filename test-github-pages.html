@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Pages 测试</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .test { margin: 20px 0; padding: 10px; border: 1px solid #ccc; }
+        .pass { background: #d4edda; }
+        .fail { background: #f8d7da; }
+        code { background: #f8f9fa; padding: 2px 4px; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <h1>GitHub Pages 部署测试</h1>
+
+    <div class="test">
+        <h3>测试 1: 检查当前部署的 HTML</h3>
+        <p>当前 URL: <code>https://ferryotto.github.io/Public-Opinion-Intelligence-Analysis/</code></p>
+        <p id="test1-result">正在检查...</p>
+    </div>
+
+    <div class="test">
+        <h3>测试 2: 直接访问 dist/index.html</h3>
+        <p>尝试访问: <code>https://ferryotto.github.io/Public-Opinion-Intelligence-Analysis/dist/index.html</code></p>
+        <p id="test2-result">正在检查...</p>
+    </div>
+
+    <div class="test">
+        <h3>问题诊断</h3>
+        <p><strong>问题:</strong> 浏览器正在请求 <code>/src/main.ts</code>，但应该请求编译后的 JS 文件。</p>
+        <p><strong>可能原因:</strong></p>
+        <ol>
+            <li>GitHub Pages 使用了错误的源分支</li>
+            <li>构建过程没有正确替换 <code>src="/src/main.ts"</code></li>
+            <li>浏览器缓存了旧的 HTML 文件</li>
+            <li>GitHub Actions 工作流程失败</li>
+        </ol>
+    </div>
+
+    <div class="test">
+        <h3>立即解决方案</h3>
+        <ol>
+            <li><strong>清除浏览器缓存</strong>: Ctrl+Shift+Delete 或使用隐私模式</li>
+            <li><strong>检查 GitHub Pages 设置</strong>:
+                <ul>
+                    <li>前往仓库 Settings → Pages</li>
+                    <li>Source 应该显示 "GitHub Actions"</li>
+                    <li>不是 "Deploy from a branch"</li>
+                </ul>
+            </li>
+            <li><strong>检查 GitHub Actions</strong>:
+                <ul>
+                    <li>前往 Actions 标签页</li>
+                    <li>查看最新的 "Deploy to GitHub Pages" 工作流程</li>
+                    <li>确保它成功完成</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <script>
+        // 测试 1: 检查当前页面
+        fetch(window.location.href)
+            .then(response => response.text())
+            .then(html => {
+                const result = document.getElementById('test1-result');
+                if (html.includes('src="/src/main.ts"')) {
+                    result.innerHTML = '<span style="color: red">❌ FAIL: 页面包含 src="/src/main.ts" (开发模式)</span>';
+                    result.parentElement.className = 'test fail';
+                } else if (html.includes('assets/main-')) {
+                    result.innerHTML = '<span style="color: green">✅ PASS: 页面包含编译后的JS文件</span>';
+                    result.parentElement.className = 'test pass';
+                } else {
+                    result.innerHTML = '<span style="color: orange">⚠️ WARNING: 无法确定页面类型</span>';
+                }
+            })
+            .catch(err => {
+                document.getElementById('test1-result').innerHTML =
+                    '<span style="color: red">❌ ERROR: ' + err.message + '</span>';
+            });
+
+        // 测试 2: 检查dist/index.html
+        fetch(window.location.href.replace(/\/$/, '') + '/dist/index.html')
+            .then(response => {
+                const result = document.getElementById('test2-result');
+                if (response.ok) {
+                    result.innerHTML = '<span style="color: green">✅ PASS: dist/index.html 存在</span>';
+                    result.parentElement.className = 'test pass';
+                } else {
+                    result.innerHTML = '<span style="color: red">❌ FAIL: dist/index.html 不存在 (404)</span>';
+                    result.parentElement.className = 'test fail';
+                }
+            })
+            .catch(err => {
+                document.getElementById('test2-result').innerHTML =
+                    '<span style="color: red">❌ ERROR: ' + err.message + '</span>';
+            });
+    </script>
+</body>
+</html>
