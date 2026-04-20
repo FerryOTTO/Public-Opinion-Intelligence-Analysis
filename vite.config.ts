@@ -37,8 +37,10 @@ export default defineConfig(({ mode }) => {
     build: {
       outDir: 'dist',
       assetsDir: 'assets',
-      // 禁用某些可能导致路径问题的功能
       rollupOptions: {
+        input: {
+          main: path.resolve(__dirname, 'index.html'),
+        },
         output: {
           // 确保资源路径正确
           assetFileNames: 'assets/[name]-[hash][extname]',

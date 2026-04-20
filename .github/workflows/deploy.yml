@@ -30,6 +30,12 @@ jobs:
           node-version: '22'  # 更新到Node.js 22
           cache: 'npm'
 
+      - name: Clear npm cache and node_modules
+        run: |
+          echo "清理缓存和node_modules..."
+          rm -rf node_modules dist
+          npm cache clean --force
+
       - name: Install dependencies
         run: npm ci
 
